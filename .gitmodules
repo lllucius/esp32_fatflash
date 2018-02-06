@@ -1,0 +1,3 @@
+[submodule "components/extflash"]
+	path = components/extflash
+	url = https://github.com/lllucius/esp32_extflash

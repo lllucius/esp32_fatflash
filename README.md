@@ -5,6 +5,12 @@ component to provide FATFS support on external flash chips.
 It uses the FATFS and wear leveling components from the esp-idf SDK rather
 than distributing local copies.
 
+To clone this repo, use the following to automatically clone the extflash
+submodule:
+```
+git clone --recurse-submodules https://github.com/lllucius/esp32_fatflash
+```
+
 To use, just add the "extflash" and "fatflash" components to your
 components directory and initialize it with something like:
 

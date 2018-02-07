@@ -15,7 +15,7 @@ To use, just add the "extflash" and "fatflash" components to your
 components directory and initialize it with something like:
 
 ```
-#include "extflash.h"
+#include "fatflash.h"
 
 void app_main()
 {

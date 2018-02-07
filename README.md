@@ -1,5 +1,5 @@
 # Fat filesystem on external flash for the ESP32
-FatFlash utilizes my [ExtFlash](components/extflash)
+FatFlash utilizes my [ExtFlash](https://github.com/lllucius/esp32_extflash)
 component to provide FATFS support on external flash chips.
 
 It uses the FATFS and wear leveling components from the esp-idf SDK rather

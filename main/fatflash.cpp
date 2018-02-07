@@ -169,7 +169,7 @@ TEST_CASE(can_unlink, "unlink removes a file", "[fatfs][wear_levelling]")
     test_teardown();
 }
 
-TEST_CASE(can_link_remove, "link copies a file, rename moves a file", "[fatfs][wear_levelling]")
+TEST_CASE(can_link_rename, "link copies a file, rename moves a file", "[fatfs][wear_levelling]")
 {
     test_setup(OPENFILES);
     test_fatfs_link_rename(MOUNT_POINT "/link");
@@ -245,7 +245,7 @@ extern "C" void app_main(void *)
     can_lseek();
     can_stat();
     can_unlink();
-    can_link_remove();
+    can_link_rename();
     can_create_remove();
     can_open_root();
     can_dir();
